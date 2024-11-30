@@ -1,7 +1,6 @@
-import React from 'react'
+
 import Image1 from "/public/image1.png"
 import Image from 'next/image'
-Image
 
 const Hero = () => {
   return (
