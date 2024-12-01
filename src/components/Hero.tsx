@@ -1,9 +1,11 @@
 
+import Wrapper from "./Wrapper"
 import Image1 from "/public/image1.png"
 import Image from 'next/image'
 
 const Hero = () => {
   return (
+    <Wrapper>
     <main className='px-1 md:px-2 mt-28 ' >
     <section  className='h-[600px] md:h-[500px]' style={{backgroundImage:'url("/bg.png")',
         backgroundSize: 'cover',
@@ -36,6 +38,7 @@ const Hero = () => {
 
     </section>
     </main>
+    </Wrapper>
   )
 }
 

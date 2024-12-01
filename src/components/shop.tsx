@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Wrapper from "./Wrapper"
 
 const shop=[{
 
@@ -64,7 +65,8 @@ tittle:"Mobile"
 
 const Shop = () => {
   return (
-    <section className="px-3 mt-11">
+    <Wrapper>
+    <section className=" mt-11">
 
 <h3 className="text-xl font-bold">Shop From Top Categories</h3>
 <div className="flex  flex-col md:flex-row justify-between items-center gap-x-3 mt-9">
@@ -89,6 +91,7 @@ return(
 
 
     </section>
+    </Wrapper>
   )
 }
 

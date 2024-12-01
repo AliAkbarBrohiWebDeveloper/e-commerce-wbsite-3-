@@ -7,6 +7,7 @@ import { useState } from "react"
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Wrapper from "./Wrapper";
 
 
 
@@ -32,7 +33,7 @@ setIsOpen(!isopen)
 
 
   return (
-
+<Wrapper>
     
 
 <div className="  p-6 rounded-md  " >
@@ -76,7 +77,7 @@ setIsOpen(!isopen)
 
 }
 </div>
-
+</Wrapper>
   
 )}
 

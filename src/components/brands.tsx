@@ -1,6 +1,7 @@
 
 import Image from 'next/image'
 import React from 'react'
+import Wrapper from './Wrapper'
 const Images=[{
     
 
@@ -20,7 +21,8 @@ src:"/group1.png"
 
 const Brands = () => {
   return (
-    <section className='px-3 text-xl font-bold mt-9'>
+    <Wrapper>
+    <section className=' text-xl font-bold mt-9'>
 
 <h4>Top Electronics Brands</h4>
 
@@ -45,6 +47,7 @@ const Brands = () => {
 </div>
 
     </section>
+    </Wrapper>
   )
 }
 

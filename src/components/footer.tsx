@@ -1,7 +1,9 @@
 import React from 'react'
+import Wrapper from './Wrapper'
 
 const Footer = () => {
   return (
+    <Wrapper>
     <footer className='mt-16 md:mt-28'>
 <div className='bg-slate-500 text-white py-6 px-6 mt-6'>
 
@@ -68,6 +70,7 @@ const Footer = () => {
 
         
     </footer>
+    </Wrapper>
   )
 }
 
